@@ -1,0 +1,161 @@
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:26:39 on Jun 04,2024
+# vlog -reportprogress 300 mipspkg.sv 
+# -- Compiling package TYPES
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:26:39 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:26:39 on Jun 04,2024
+# vlog -reportprogress 300 design.sv 
+# -- Compiling package TYPES
+# -- Compiling module InstrFetch
+# -- Importing package TYPES
+# -- Compiling module InstrDecode
+# -- Compiling module Execute
+# -- Compiling module MemAccess
+# -- Compiling module WriteBack
+# -- Compiling module MIPS_Processor
+# 
+# Top level modules:
+# 	MIPS_Processor
+# End time: 12:26:40 on Jun 04,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:26:40 on Jun 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:26:40 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.top 
+# Start time: 12:26:40 on Jun 04,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.TYPES(fast)
+# Loading work.top(fast)
+# ** Note: $finish    : writeBackStage.sv(17)
+#    Time: 12505 ns  Iteration: 2  Instance: /top/DUT/WB
+# 1
+# Break at writeBackStage.sv line 17
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:28:25 on Jun 04,2024
+# vlog -reportprogress 300 mipspkg.sv 
+# -- Compiling package TYPES
+# 
+# Top level modules:
+# 	--none--
+# End time: 12:28:25 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:28:25 on Jun 04,2024
+# vlog -reportprogress 300 design.sv 
+# -- Compiling package TYPES
+# -- Compiling module InstrFetch
+# -- Importing package TYPES
+# -- Compiling module InstrDecode
+# -- Compiling module Execute
+# -- Compiling module MemAccess
+# -- Compiling module WriteBack
+# -- Compiling module MIPS_Processor
+# 
+# Top level modules:
+# 	MIPS_Processor
+# End time: 12:28:25 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2019.2_1 Compiler 2019.05 May 13 2019
+# Start time: 12:28:25 on Jun 04,2024
+# vlog -reportprogress 300 testbench.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:28:25 on Jun 04,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -------------------------------------------------------
+#                    Pipeline with Forwarding       
+# -------------------------------------------------------
+# 
+# -------------------------------------------------------
+# 
+#                  Total Instruction Counts 
+# -------------------------------------------------------
+# Toatl Number of Instructions = 637
+# Total Number of Arithmetic Instructions = 333
+# Total Number of Logical Instructions = 50
+# Total Number of Memory Access Instruction = 103
+# Total Number of Control Transfer Instruction = 151
+# 
+# -------------------------------------------------------
+# 
+#                   Final Register Status 
+# -------------------------------------------------------
+# Program Counter = 100
+# R0 = 0
+# R1 = 1200
+# R2 = 1400
+# R3 = 100
+# R4 = 50
+# R5 = 50
+# R6 = 0
+# R7 = 25
+# R8 = 2550
+# R9 = 1275
+# R10 = 50
+# R11 = 50
+# R12 = 32
+# R13 = 0
+# R14 = 0
+# R15 = 0
+# R16 = 0
+# R17 = 0
+# R18 = 0
+# R19 = 0
+# R20 = 0
+# R21 = 0
+# R22 = 0
+# R23 = 0
+# R24 = 0
+# R25 = 0
+# R26 = 0
+# R27 = 0
+# R28 = 0
+# R29 = 0
+# R30 = 0
+# R31 = 0
+# 
+# -------------------------------------------------------
+# 
+#                    Final Memory State 
+# -------------------------------------------------------
+# Address = 1400 Contents =25
+# Address = 1404 Contents =2550
+# Address = 1408 Contents =1275
+# -------------------------------------------------------
+# 
+#                    Timing Simulator 
+# -------------------------------------------------------
+# Total number of Clock Cycles = 851
+# STALLS=104
+# Total Data hazard=52
+# -------------------------------------------------------
+# End time: 12:28:27 on Jun 04,2024, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim work.top 
+# Start time: 12:28:27 on Jun 04,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.TYPES(fast)
+# Loading work.top(fast)
+# ** Note: $finish    : writeBackStage.sv(17)
+#    Time: 12505 ns  Iteration: 2  Instance: /top/DUT/WB
+# 1
+# Break at writeBackStage.sv line 17
