@@ -40,7 +40,7 @@ module MIPS_Processor(clk,rst);
         $display("string = %s",TEST);
     end
 
-  
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   InstrFetch IF(clk, rst, haltSignal, Hazard_Detected, Branch_Address, is_taken, pcPlus4, instruction,pc);
 
   always_comb
