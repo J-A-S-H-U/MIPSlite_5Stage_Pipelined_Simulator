@@ -159,7 +159,7 @@ module MIPS_Processor(clk,rst);
       Read_Buffer[1].rs1 <= Read_Buffer[0].rs1;
       Read_Buffer[1].rs2 <= Read_Buffer[0].rs2;     
   end
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   MemAccess IM(clk,rst,Instr_Buffer[1].instruction, Execution_Buffer.aluOut, Execution_Buffer.writeData, Execution_Buffer.aluOut, Cntrl_Buffer[1].cntrl, memDataOut, writeBackData, instrMem);
   always_ff@(posedge clk)
     begin
