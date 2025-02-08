@@ -34,7 +34,7 @@ module MIPS_Lite_Simulator(clk,reset);
   logic [DATA-1:0] Write_Back_Data;
   
   
-  InstrFetch a(clk, reset, Branch_Address, Branch_Taken, pc_add_4, instruction,pc);
+  InstrFetch a(clk, reset, Branch_Address, Branch_Taken, pc_add_4, instruction,pc);                 /////InstructionFetch Phase
   
   InstrDecode b(clk,reset,Write_Enable, instruction, WB_Data, cntrl, Data1_read, Data2_read, imm_op);
 
