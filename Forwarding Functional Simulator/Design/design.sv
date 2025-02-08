@@ -172,6 +172,9 @@ module MIPS_Processor(clk,rst);
       Read_Buffer[2].rs1 <= Read_Buffer[1].rs1;
       Read_Buffer[2].rs2 <= Read_Buffer[1].rs2;
     end
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   WriteBack WB(clk,Mem_Buffer.writeBackData, Mem_Buffer.memDataOut , 
                     Cntrl_Buffer[2].cntrl, wbData,Mem_Buffer.haltSignal);
  
