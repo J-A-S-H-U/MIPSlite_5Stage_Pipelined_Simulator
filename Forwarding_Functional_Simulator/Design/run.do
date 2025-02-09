@@ -1,7 +1,7 @@
 vlib work
-vlog mipspkg.sv
-vlog design.sv
-vlog testbench.sv
+vlog -lint mipspkg.sv
+vlog -lint design.sv
+vlog -lint testbench.sv
 #vlog instructionFetch.sv
 #vlog memStage.sv
 
